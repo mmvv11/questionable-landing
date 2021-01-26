@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #5f67cf;
+  color: #000000;
 }
 
 a:hover {
@@ -655,12 +655,18 @@ section {
 }
 
 .why-us .icon-boxes .icon-box {
+  transition: box-shadow 0.3s;
   text-align: center;
   background: #fff;
   padding: 40px 30px;
   width: 100%;
   border: 1px solid #eef0ef;
 }
+
+.why-us .icon-boxes .icon-box:hover {
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.34);
+}
+
 
 .why-us .icon-boxes .icon-box i {
   font-size: 32px;
